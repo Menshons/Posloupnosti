@@ -78,7 +78,22 @@ namespace Posloupnosti
                 string[] numbersStr = skipText.Split(',');
                 for (int i = 0; i < numbersStr.Length; i++)
                 {
-                    skipNumbers.Add(int.Parse(numbersStr[i]));
+                    if(int.TryParse(numbersStr[i], out int number))
+                    {
+                        skipNumbers.Add(number);
+                    } else
+                    {
+                        string[] rangeArr = numbersStr[i].Split('-');
+                        if(rangeArr.Length == 2)
+                        {
+                            int from = int.Parse(rangeArr[0]);
+                            int to = int.Parse(rangeArr[1]);
+                            for (int j = from; j <= to; j++)
+                            {
+                                skipNumbers.Add(j);
+                            }
+                        }
+                    }
                 }
             }
         }

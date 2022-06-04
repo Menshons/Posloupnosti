@@ -78,7 +78,6 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(10, 10);
             this.splitContainer1.Name = "splitContainer1";
             // 
@@ -91,14 +90,13 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dataGridViewProblems);
             this.splitContainer1.Size = new System.Drawing.Size(527, 496);
-            this.splitContainer1.SplitterDistance = 360;
+            this.splitContainer1.SplitterDistance = 321;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer2.IsSplitterFixed = true;
             this.splitContainer2.Location = new System.Drawing.Point(3, 0);
             this.splitContainer2.Name = "splitContainer2";
             this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -110,8 +108,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.flowLayoutPanel1);
-            this.splitContainer2.Size = new System.Drawing.Size(357, 496);
-            this.splitContainer2.SplitterDistance = 464;
+            this.splitContainer2.Size = new System.Drawing.Size(318, 496);
+            this.splitContainer2.SplitterDistance = 437;
             this.splitContainer2.TabIndex = 1;
             // 
             // splitContainer3
@@ -133,7 +131,7 @@
             this.splitContainer3.Panel2.Controls.Add(this.label2);
             this.splitContainer3.Panel2.Controls.Add(this.textBoxSkip);
             this.splitContainer3.Panel2.Controls.Add(this.textBoxNotes);
-            this.splitContainer3.Size = new System.Drawing.Size(357, 464);
+            this.splitContainer3.Size = new System.Drawing.Size(318, 437);
             this.splitContainer3.SplitterDistance = 125;
             this.splitContainer3.TabIndex = 0;
             // 
@@ -152,7 +150,7 @@
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.panel1);
-            this.splitContainer4.Size = new System.Drawing.Size(357, 125);
+            this.splitContainer4.Size = new System.Drawing.Size(318, 125);
             this.splitContainer4.SplitterDistance = 96;
             this.splitContainer4.TabIndex = 0;
             // 
@@ -163,7 +161,7 @@
             this.textBoxInput.Multiline = true;
             this.textBoxInput.Name = "textBoxInput";
             this.textBoxInput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxInput.Size = new System.Drawing.Size(351, 92);
+            this.textBoxInput.Size = new System.Drawing.Size(312, 92);
             this.textBoxInput.TabIndex = 0;
             // 
             // panel1
@@ -175,7 +173,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(357, 25);
+            this.panel1.Size = new System.Drawing.Size(318, 25);
             this.panel1.TabIndex = 0;
             // 
             // labelRangeDash
@@ -250,7 +248,7 @@
             this.textBoxSkip.Location = new System.Drawing.Point(9, 28);
             this.textBoxSkip.Multiline = true;
             this.textBoxSkip.Name = "textBoxSkip";
-            this.textBoxSkip.Size = new System.Drawing.Size(345, 75);
+            this.textBoxSkip.Size = new System.Drawing.Size(306, 75);
             this.textBoxSkip.TabIndex = 1;
             // 
             // textBoxNotes
@@ -261,7 +259,7 @@
             this.textBoxNotes.Location = new System.Drawing.Point(9, 129);
             this.textBoxNotes.Multiline = true;
             this.textBoxNotes.Name = "textBoxNotes";
-            this.textBoxNotes.Size = new System.Drawing.Size(345, 199);
+            this.textBoxNotes.Size = new System.Drawing.Size(306, 172);
             this.textBoxNotes.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -272,7 +270,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(357, 28);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(318, 55);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnCheck
@@ -340,13 +338,13 @@
             this.dataGridViewProblems.ShowCellToolTips = false;
             this.dataGridViewProblems.ShowEditingIcon = false;
             this.dataGridViewProblems.ShowRowErrors = false;
-            this.dataGridViewProblems.Size = new System.Drawing.Size(163, 496);
+            this.dataGridViewProblems.Size = new System.Drawing.Size(202, 496);
             this.dataGridViewProblems.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(547, 516);
             this.Controls.Add(this.splitContainer1);
             this.MinimumSize = new System.Drawing.Size(563, 555);

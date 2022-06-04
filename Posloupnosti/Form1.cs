@@ -29,8 +29,8 @@ namespace Posloupnosti
             dataGridViewProblems.DataSource = problemTest.Problems;
             dataGridViewProblems.Columns[0].HeaderText = "Èíslo";
             dataGridViewProblems.Columns[1].HeaderText = "Problém";
-            dataGridViewProblems.Columns[0].Width = 70;
-            dataGridViewProblems.Columns[1].Width = 90;
+            dataGridViewProblems.Columns[0].Width = 85;
+            dataGridViewProblems.Columns[1].Width = 110;
         }
 
         private void handleBtnClearOnClick(object sender, EventArgs e)

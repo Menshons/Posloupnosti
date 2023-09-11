@@ -28,355 +28,369 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.textBoxInput = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelRangeDash = new System.Windows.Forms.Label();
-            this.numericUpDownRangeTo = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDownRangeFrom = new System.Windows.Forms.NumericUpDown();
-            this.checkBoxRange = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBoxSkip = new System.Windows.Forms.TextBox();
-            this.textBoxNotes = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnCheck = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.dataGridViewProblems = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.Panel1.SuspendLayout();
-            this.splitContainer4.Panel2.SuspendLayout();
-            this.splitContainer4.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRangeTo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRangeFrom)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProblems)).BeginInit();
-            this.SuspendLayout();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            splitContainer1 = new SplitContainer();
+            splitContainer2 = new SplitContainer();
+            splitContainer3 = new SplitContainer();
+            splitContainer4 = new SplitContainer();
+            textBoxInput = new TextBox();
+            panel1 = new Panel();
+            labelRangeDash = new Label();
+            numericUpDownRangeTo = new NumericUpDown();
+            numericUpDownRangeFrom = new NumericUpDown();
+            checkBoxRange = new CheckBox();
+            label3 = new Label();
+            label2 = new Label();
+            textBoxSkip = new TextBox();
+            textBoxNotes = new TextBox();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            btnCheck = new Button();
+            btnClear = new Button();
+            btnSave = new Button();
+            splitter1 = new Splitter();
+            dataGridViewProblems = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.Panel1.SuspendLayout();
+            splitContainer1.Panel2.SuspendLayout();
+            splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
+            splitContainer2.Panel1.SuspendLayout();
+            splitContainer2.Panel2.SuspendLayout();
+            splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).BeginInit();
+            splitContainer3.Panel1.SuspendLayout();
+            splitContainer3.Panel2.SuspendLayout();
+            splitContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer4).BeginInit();
+            splitContainer4.Panel1.SuspendLayout();
+            splitContainer4.Panel2.SuspendLayout();
+            splitContainer4.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownRangeTo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownRangeFrom).BeginInit();
+            flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewProblems).BeginInit();
+            SuspendLayout();
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer1.Location = new System.Drawing.Point(10, 10);
-            this.splitContainer1.Name = "splitContainer1";
+            splitContainer1.Dock = DockStyle.Fill;
+            splitContainer1.FixedPanel = FixedPanel.Panel2;
+            splitContainer1.Location = new Point(12, 12);
+            splitContainer1.Margin = new Padding(4);
+            splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Panel1.Controls.Add(this.splitter1);
+            splitContainer1.Panel1.Controls.Add(splitContainer2);
+            splitContainer1.Panel1.Controls.Add(splitter1);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.dataGridViewProblems);
-            this.splitContainer1.Size = new System.Drawing.Size(527, 496);
-            this.splitContainer1.SplitterDistance = 321;
-            this.splitContainer1.TabIndex = 0;
+            splitContainer1.Panel2.Controls.Add(dataGridViewProblems);
+            splitContainer1.Size = new Size(660, 621);
+            splitContainer1.SplitterDistance = 448;
+            splitContainer1.SplitterWidth = 5;
+            splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer2.Location = new System.Drawing.Point(3, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer2.Dock = DockStyle.Fill;
+            splitContainer2.FixedPanel = FixedPanel.Panel2;
+            splitContainer2.Location = new Point(4, 0);
+            splitContainer2.Margin = new Padding(4);
+            splitContainer2.Name = "splitContainer2";
+            splitContainer2.Orientation = Orientation.Horizontal;
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.splitContainer3);
+            splitContainer2.Panel1.Controls.Add(splitContainer3);
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.flowLayoutPanel1);
-            this.splitContainer2.Size = new System.Drawing.Size(318, 496);
-            this.splitContainer2.SplitterDistance = 437;
-            this.splitContainer2.TabIndex = 1;
+            splitContainer2.Panel2.Controls.Add(flowLayoutPanel1);
+            splitContainer2.Size = new Size(444, 621);
+            splitContainer2.SplitterDistance = 556;
+            splitContainer2.SplitterWidth = 5;
+            splitContainer2.TabIndex = 1;
             // 
             // splitContainer3
             // 
-            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer3.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainer3.IsSplitterFixed = true;
-            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Name = "splitContainer3";
-            this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer3.Dock = DockStyle.Fill;
+            splitContainer3.FixedPanel = FixedPanel.Panel1;
+            splitContainer3.IsSplitterFixed = true;
+            splitContainer3.Location = new Point(0, 0);
+            splitContainer3.Margin = new Padding(4);
+            splitContainer3.Name = "splitContainer3";
+            splitContainer3.Orientation = Orientation.Horizontal;
             // 
             // splitContainer3.Panel1
             // 
-            this.splitContainer3.Panel1.Controls.Add(this.splitContainer4);
+            splitContainer3.Panel1.Controls.Add(splitContainer4);
             // 
             // splitContainer3.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.label3);
-            this.splitContainer3.Panel2.Controls.Add(this.label2);
-            this.splitContainer3.Panel2.Controls.Add(this.textBoxSkip);
-            this.splitContainer3.Panel2.Controls.Add(this.textBoxNotes);
-            this.splitContainer3.Size = new System.Drawing.Size(318, 437);
-            this.splitContainer3.SplitterDistance = 125;
-            this.splitContainer3.TabIndex = 0;
+            splitContainer3.Panel2.Controls.Add(label3);
+            splitContainer3.Panel2.Controls.Add(label2);
+            splitContainer3.Panel2.Controls.Add(textBoxSkip);
+            splitContainer3.Panel2.Controls.Add(textBoxNotes);
+            splitContainer3.Size = new Size(444, 556);
+            splitContainer3.SplitterDistance = 140;
+            splitContainer3.SplitterWidth = 5;
+            splitContainer3.TabIndex = 0;
             // 
             // splitContainer4
             // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.IsSplitterFixed = true;
-            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer4.Name = "splitContainer4";
-            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer4.Dock = DockStyle.Fill;
+            splitContainer4.IsSplitterFixed = true;
+            splitContainer4.Location = new Point(0, 0);
+            splitContainer4.Margin = new Padding(4);
+            splitContainer4.Name = "splitContainer4";
+            splitContainer4.Orientation = Orientation.Horizontal;
             // 
             // splitContainer4.Panel1
             // 
-            this.splitContainer4.Panel1.Controls.Add(this.textBoxInput);
+            splitContainer4.Panel1.Controls.Add(textBoxInput);
             // 
             // splitContainer4.Panel2
             // 
-            this.splitContainer4.Panel2.Controls.Add(this.panel1);
-            this.splitContainer4.Size = new System.Drawing.Size(318, 125);
-            this.splitContainer4.SplitterDistance = 96;
-            this.splitContainer4.TabIndex = 0;
+            splitContainer4.Panel2.Controls.Add(panel1);
+            splitContainer4.Size = new Size(444, 140);
+            splitContainer4.SplitterDistance = 107;
+            splitContainer4.SplitterWidth = 5;
+            splitContainer4.TabIndex = 0;
             // 
             // textBoxInput
             // 
-            this.textBoxInput.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxInput.Location = new System.Drawing.Point(3, 4);
-            this.textBoxInput.Multiline = true;
-            this.textBoxInput.Name = "textBoxInput";
-            this.textBoxInput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxInput.Size = new System.Drawing.Size(312, 92);
-            this.textBoxInput.TabIndex = 0;
+            textBoxInput.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            textBoxInput.Location = new Point(4, 4);
+            textBoxInput.Margin = new Padding(4);
+            textBoxInput.MaxLength = 131068;
+            textBoxInput.Multiline = true;
+            textBoxInput.Name = "textBoxInput";
+            textBoxInput.ScrollBars = ScrollBars.Vertical;
+            textBoxInput.Size = new Size(429, 99);
+            textBoxInput.TabIndex = 0;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.labelRangeDash);
-            this.panel1.Controls.Add(this.numericUpDownRangeTo);
-            this.panel1.Controls.Add(this.numericUpDownRangeFrom);
-            this.panel1.Controls.Add(this.checkBoxRange);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(318, 25);
-            this.panel1.TabIndex = 0;
+            panel1.Controls.Add(labelRangeDash);
+            panel1.Controls.Add(numericUpDownRangeTo);
+            panel1.Controls.Add(numericUpDownRangeFrom);
+            panel1.Controls.Add(checkBoxRange);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(444, 28);
+            panel1.TabIndex = 0;
             // 
             // labelRangeDash
             // 
-            this.labelRangeDash.AutoSize = true;
-            this.labelRangeDash.Enabled = false;
-            this.labelRangeDash.Location = new System.Drawing.Point(216, 6);
-            this.labelRangeDash.Name = "labelRangeDash";
-            this.labelRangeDash.Size = new System.Drawing.Size(12, 15);
-            this.labelRangeDash.TabIndex = 3;
-            this.labelRangeDash.Text = "-";
+            labelRangeDash.AutoSize = true;
+            labelRangeDash.Enabled = false;
+            labelRangeDash.Location = new Point(273, 3);
+            labelRangeDash.Margin = new Padding(4, 0, 4, 0);
+            labelRangeDash.Name = "labelRangeDash";
+            labelRangeDash.Size = new Size(15, 20);
+            labelRangeDash.TabIndex = 3;
+            labelRangeDash.Text = "-";
             // 
             // numericUpDownRangeTo
             // 
-            this.numericUpDownRangeTo.Enabled = false;
-            this.numericUpDownRangeTo.Location = new System.Drawing.Point(232, 3);
-            this.numericUpDownRangeTo.Maximum = new decimal(new int[] {
-            99999999,
-            0,
-            0,
-            0});
-            this.numericUpDownRangeTo.Name = "numericUpDownRangeTo";
-            this.numericUpDownRangeTo.Size = new System.Drawing.Size(87, 23);
-            this.numericUpDownRangeTo.TabIndex = 2;
+            numericUpDownRangeTo.Enabled = false;
+            numericUpDownRangeTo.Location = new Point(296, 1);
+            numericUpDownRangeTo.Margin = new Padding(4);
+            numericUpDownRangeTo.Maximum = new decimal(new int[] { 99999999, 0, 0, 0 });
+            numericUpDownRangeTo.Name = "numericUpDownRangeTo";
+            numericUpDownRangeTo.Size = new Size(109, 27);
+            numericUpDownRangeTo.TabIndex = 2;
             // 
             // numericUpDownRangeFrom
             // 
-            this.numericUpDownRangeFrom.Enabled = false;
-            this.numericUpDownRangeFrom.Location = new System.Drawing.Point(127, 3);
-            this.numericUpDownRangeFrom.Maximum = new decimal(new int[] {
-            99999999,
-            0,
-            0,
-            0});
-            this.numericUpDownRangeFrom.Name = "numericUpDownRangeFrom";
-            this.numericUpDownRangeFrom.Size = new System.Drawing.Size(87, 23);
-            this.numericUpDownRangeFrom.TabIndex = 1;
+            numericUpDownRangeFrom.Enabled = false;
+            numericUpDownRangeFrom.Location = new Point(160, 1);
+            numericUpDownRangeFrom.Margin = new Padding(4);
+            numericUpDownRangeFrom.Maximum = new decimal(new int[] { 99999999, 0, 0, 0 });
+            numericUpDownRangeFrom.Name = "numericUpDownRangeFrom";
+            numericUpDownRangeFrom.Size = new Size(109, 27);
+            numericUpDownRangeFrom.TabIndex = 1;
             // 
             // checkBoxRange
             // 
-            this.checkBoxRange.AutoSize = true;
-            this.checkBoxRange.Location = new System.Drawing.Point(8, 8);
-            this.checkBoxRange.Name = "checkBoxRange";
-            this.checkBoxRange.Size = new System.Drawing.Size(113, 19);
-            this.checkBoxRange.TabIndex = 0;
-            this.checkBoxRange.Text = "Nastavit rozmezí";
-            this.checkBoxRange.UseVisualStyleBackColor = true;
-            this.checkBoxRange.CheckedChanged += new System.EventHandler(this.handleCheckBoxRangeOnChecked);
+            checkBoxRange.AutoSize = true;
+            checkBoxRange.Location = new Point(11, 2);
+            checkBoxRange.Margin = new Padding(4);
+            checkBoxRange.Name = "checkBoxRange";
+            checkBoxRange.Size = new Size(142, 24);
+            checkBoxRange.TabIndex = 0;
+            checkBoxRange.Text = "Nastavit rozmezí";
+            checkBoxRange.UseVisualStyleBackColor = true;
+            checkBoxRange.CheckedChanged += handleCheckBoxRangeOnChecked;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 7);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 15);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Vynechat";
+            label3.AutoSize = true;
+            label3.Location = new Point(11, 8);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(69, 20);
+            label3.TabIndex = 3;
+            label3.Text = "Vynechat";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 107);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Poznámky";
+            label2.AutoSize = true;
+            label2.Location = new Point(11, 134);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(75, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Poznámky";
             // 
             // textBoxSkip
             // 
-            this.textBoxSkip.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxSkip.Location = new System.Drawing.Point(9, 28);
-            this.textBoxSkip.Multiline = true;
-            this.textBoxSkip.Name = "textBoxSkip";
-            this.textBoxSkip.Size = new System.Drawing.Size(306, 75);
-            this.textBoxSkip.TabIndex = 1;
+            textBoxSkip.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxSkip.Location = new Point(11, 32);
+            textBoxSkip.Margin = new Padding(4);
+            textBoxSkip.Multiline = true;
+            textBoxSkip.Name = "textBoxSkip";
+            textBoxSkip.Size = new Size(428, 93);
+            textBoxSkip.TabIndex = 1;
             // 
             // textBoxNotes
             // 
-            this.textBoxNotes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxNotes.Location = new System.Drawing.Point(9, 129);
-            this.textBoxNotes.Multiline = true;
-            this.textBoxNotes.Name = "textBoxNotes";
-            this.textBoxNotes.Size = new System.Drawing.Size(306, 172);
-            this.textBoxNotes.TabIndex = 0;
+            textBoxNotes.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBoxNotes.Location = new Point(11, 158);
+            textBoxNotes.Margin = new Padding(4);
+            textBoxNotes.Multiline = true;
+            textBoxNotes.Name = "textBoxNotes";
+            textBoxNotes.Size = new Size(428, 235);
+            textBoxNotes.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.btnCheck);
-            this.flowLayoutPanel1.Controls.Add(this.btnClear);
-            this.flowLayoutPanel1.Controls.Add(this.btnSave);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(318, 55);
-            this.flowLayoutPanel1.TabIndex = 0;
+            flowLayoutPanel1.Controls.Add(btnCheck);
+            flowLayoutPanel1.Controls.Add(btnClear);
+            flowLayoutPanel1.Controls.Add(btnSave);
+            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.Location = new Point(0, 0);
+            flowLayoutPanel1.Margin = new Padding(4);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(444, 60);
+            flowLayoutPanel1.TabIndex = 0;
             // 
             // btnCheck
             // 
-            this.btnCheck.Location = new System.Drawing.Point(3, 3);
-            this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(75, 23);
-            this.btnCheck.TabIndex = 0;
-            this.btnCheck.Text = "Zkontroluj";
-            this.btnCheck.UseVisualStyleBackColor = true;
-            this.btnCheck.Click += new System.EventHandler(this.handleBtnCheckOnClick);
+            btnCheck.Location = new Point(4, 4);
+            btnCheck.Margin = new Padding(4);
+            btnCheck.Name = "btnCheck";
+            btnCheck.Size = new Size(94, 29);
+            btnCheck.TabIndex = 0;
+            btnCheck.Text = "Zkontroluj";
+            btnCheck.UseVisualStyleBackColor = true;
+            btnCheck.Click += handleBtnCheckOnClick;
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(84, 3);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 1;
-            this.btnClear.Text = "Vymaž";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.handleBtnClearOnClick);
+            btnClear.Location = new Point(106, 4);
+            btnClear.Margin = new Padding(4);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(94, 29);
+            btnClear.TabIndex = 1;
+            btnClear.Text = "Vymaž";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += handleBtnClearOnClick;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(165, 3);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "Uložit";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.handleBtnSaveOnClick);
+            btnSave.Location = new Point(208, 4);
+            btnSave.Margin = new Padding(4);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(94, 29);
+            btnSave.TabIndex = 2;
+            btnSave.Text = "Uložit";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += handleBtnSaveOnClick;
             // 
             // splitter1
             // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 496);
-            this.splitter1.TabIndex = 0;
-            this.splitter1.TabStop = false;
+            splitter1.Location = new Point(0, 0);
+            splitter1.Margin = new Padding(4);
+            splitter1.Name = "splitter1";
+            splitter1.Size = new Size(4, 621);
+            splitter1.TabIndex = 0;
+            splitter1.TabStop = false;
             // 
             // dataGridViewProblems
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            this.dataGridViewProblems.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridViewProblems.BackgroundColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewProblems.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewProblems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProblems.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewProblems.GridColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridViewProblems.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewProblems.Margin = new System.Windows.Forms.Padding(20);
-            this.dataGridViewProblems.Name = "dataGridViewProblems";
-            this.dataGridViewProblems.RowHeadersVisible = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            this.dataGridViewProblems.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridViewProblems.RowTemplate.Height = 25;
-            this.dataGridViewProblems.ShowCellErrors = false;
-            this.dataGridViewProblems.ShowCellToolTips = false;
-            this.dataGridViewProblems.ShowEditingIcon = false;
-            this.dataGridViewProblems.ShowRowErrors = false;
-            this.dataGridViewProblems.Size = new System.Drawing.Size(202, 496);
-            this.dataGridViewProblems.TabIndex = 0;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewProblems.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewProblems.BackgroundColor = SystemColors.Control;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = SystemColors.Control;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            dataGridViewProblems.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewProblems.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewProblems.Dock = DockStyle.Fill;
+            dataGridViewProblems.GridColor = Color.WhiteSmoke;
+            dataGridViewProblems.Location = new Point(0, 0);
+            dataGridViewProblems.Margin = new Padding(25);
+            dataGridViewProblems.Name = "dataGridViewProblems";
+            dataGridViewProblems.RowHeadersVisible = false;
+            dataGridViewProblems.RowHeadersWidth = 51;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.TopCenter;
+            dataGridViewProblems.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewProblems.RowTemplate.Height = 25;
+            dataGridViewProblems.ShowCellErrors = false;
+            dataGridViewProblems.ShowCellToolTips = false;
+            dataGridViewProblems.ShowEditingIcon = false;
+            dataGridViewProblems.ShowRowErrors = false;
+            dataGridViewProblems.Size = new Size(207, 621);
+            dataGridViewProblems.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(547, 516);
-            this.Controls.Add(this.splitContainer1);
-            this.MinimumSize = new System.Drawing.Size(563, 555);
-            this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(10);
-            this.Text = "Test posloupnosti";
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            this.splitContainer3.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            this.splitContainer4.Panel1.ResumeLayout(false);
-            this.splitContainer4.Panel1.PerformLayout();
-            this.splitContainer4.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRangeTo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRangeFrom)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProblems)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleMode = AutoScaleMode.Dpi;
+            ClientSize = new Size(684, 645);
+            Controls.Add(splitContainer1);
+            Margin = new Padding(4);
+            MinimumSize = new Size(699, 682);
+            Name = "Form1";
+            Padding = new Padding(12);
+            Text = "Test posloupnosti";
+            splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
+            splitContainer2.Panel1.ResumeLayout(false);
+            splitContainer2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
+            splitContainer2.ResumeLayout(false);
+            splitContainer3.Panel1.ResumeLayout(false);
+            splitContainer3.Panel2.ResumeLayout(false);
+            splitContainer3.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).EndInit();
+            splitContainer3.ResumeLayout(false);
+            splitContainer4.Panel1.ResumeLayout(false);
+            splitContainer4.Panel1.PerformLayout();
+            splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer4).EndInit();
+            splitContainer4.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownRangeTo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownRangeFrom).EndInit();
+            flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridViewProblems).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion

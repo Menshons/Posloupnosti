@@ -17,7 +17,7 @@ namespace Posloupnosti
         private void handleBtnCheckOnClick(object sender, EventArgs e)
         {
             Range? range = null;
-            if(checkBoxRange.Checked)
+            if (checkBoxRange.Checked)
             {
                 range = new Range((int)numericUpDownRangeFrom.Value, (int)numericUpDownRangeTo.Value);
             }
@@ -41,12 +41,12 @@ namespace Posloupnosti
 
         private void handleCheckBoxRangeOnChecked(object sender, EventArgs e)
         {
-            if(checkBoxRange.Checked)
+            if (checkBoxRange.Checked)
             {
                 numericUpDownRangeFrom.Enabled = true;
                 numericUpDownRangeTo.Enabled = true;
                 labelRangeDash.Enabled = true;
-            } 
+            }
             else
             {
                 numericUpDownRangeFrom.Enabled = false;
